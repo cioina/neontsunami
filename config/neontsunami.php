@@ -12,6 +12,6 @@ return [
     |
      */
 
-    'prefix' => env('DASHBOARD_PREFIX', getenv('LARAVEL_ADMIN_URL')),
+    'prefix' => env('DASHBOARD_PREFIX', getenv('DASHBOARD_PREFIX')),
  
 ];
